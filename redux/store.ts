@@ -3,10 +3,12 @@ import { useDispatch } from 'react-redux';
 
 //import slice as reducer
 import productReducer from './features/productSlice';
+import utilsReducer from './features/utilsSlice';
 
 export const store = configureStore({
   reducer: {
     product: productReducer,
+    utils: utilsReducer,
   },
 });
 

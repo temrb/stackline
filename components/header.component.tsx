@@ -11,10 +11,6 @@ const Header = () => {
   const support = useAppSelector(
     (state: RootState) => state.utils.supportModal
   );
-  console.log(
-    '🚀 ~ file: header.component.tsx ~ line 12 ~ Header ~ support',
-    support
-  );
 
   return (
     <header className='sticky top-0 z-20 flex justify-between h-16 items-center w-full px-6 bg-slate-800'>
